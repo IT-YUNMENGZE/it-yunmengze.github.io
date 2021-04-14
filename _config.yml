@@ -29,14 +29,14 @@ description_footer: 记录学习和生活的点滴！
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname: #yunmengze
-disqus_shortname: yunmengze
+disqus_shortname: it-yunmengze
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: 18ba109a0a6546f47b4baec84aa58e2c
-google_analytics_id: G-5F1XGEW8WG # google 分析追踪id
+# google_analytics_id: G-BNXK7YLKH1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
