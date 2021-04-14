@@ -1,0 +1,28 @@
+I"�<ul id="markdown-toc">
+  <li><a href="#ubuntu下所有的快捷方式都在" id="markdown-toc-ubuntu下所有的快捷方式都在">Ubuntu下所有的快捷方式都在：</a></li>
+  <li><a href="#解压" id="markdown-toc-解压">解压</a></li>
+  <li><a href="#终端打开" id="markdown-toc-终端打开">终端打开</a></li>
+</ul>
+
+<h2 id="ubuntu下所有的快捷方式都在">Ubuntu下所有的快捷方式都在：</h2>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">share</span><span class="o">/</span><span class="nx">applications</span>
+</code></pre></div></div>
+
+<h2 id="解压">解压</h2>
+
+<p>这里我将pycharm下载并解压到了/home/snakeson/developer文件夹下</p>
+
+<p>这里的pycharm.sh是批处理执行文件，prcharm.png是快捷方式图标</p>
+
+<h2 id="终端打开">终端打开</h2>
+
+<p>使用Ubuntu终端进行打开：
+方法一（使用vim）：</p>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">sudo</span> <span class="nx">vi</span>  <span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">share</span><span class="o">/</span><span class="nx">applications</span><span class="o">/</span><span class="nx">pycharm</span><span class="p">.</span><span class="nx">desktop</span>
+</code></pre></div></div>
+
+<p>方法二（使用gedit）：</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">sudo</span> <span class="nx">gedit</span>  <span class="o">/</span><span class="nx">usr</span><span class="o">/</span><span class="nx">share</span><span class="o">/</span><span class="nx">applications</span><span class="o">/</span><span class="nx">pycharm</span><span class="p">.</span><span class="nx">desktop</span>
+</code></pre></div></div>
+:ET

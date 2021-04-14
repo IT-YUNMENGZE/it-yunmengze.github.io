@@ -1,0 +1,25 @@
+I"�<ul id="markdown-toc">
+  <li><a href="#环境" id="markdown-toc-环境">环境：</a></li>
+  <li><a href="#初次安装" id="markdown-toc-初次安装">初次安装：</a></li>
+</ul>
+
+<p>目录：</p>
+
+<p>[TOC]</p>
+
+<h2 id="环境">环境：</h2>
+
+<blockquote>
+  <p>python3  3.6.4， win7 64位</p>
+</blockquote>
+
+<h2 id="初次安装">初次安装：</h2>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">pip install scrapy</code></p>
+</blockquote>
+
+<p>使用这个命令，在win7 64位是怎么也安装不上去的，因为这已经是第二次了，</p>
+
+<p>当这个命令输出完后，会出现一系列的问题。当然了，不用怕，这不是需要解决问题的方法来了嘛。</p>
+:ET

@@ -1,0 +1,24 @@
+I",<ul id="markdown-toc">
+  <li><a href="#前言" id="markdown-toc-前言">前言</a></li>
+  <li><a href="#crontab" id="markdown-toc-crontab">crontab</a></li>
+</ul>
+
+<h2 id="前言">前言</h2>
+
+<p>工作中需要开启一个定时任务：每天晚上2点进行爬虫代码的运行，这不得不去学习一下linux 下的定时任务crontab</p>
+
+<h2 id="crontab">crontab</h2>
+
+<p>yum install crontabs</p>
+
+<p>说明：
+/sbin/service crond start //启动服务
+/sbin/service crond stop //关闭服务
+/sbin/service crond restart //重启服务
+/sbin/service crond reload //重新载入配置
+查看crontab服务状态：service crond status
+手动启动crontab服务：service crond start
+查看crontab服务是否已设置为开机启动，执行命令：ntsysv
+加入开机自动启动:
+chkconfig crond on</p>
+:ET

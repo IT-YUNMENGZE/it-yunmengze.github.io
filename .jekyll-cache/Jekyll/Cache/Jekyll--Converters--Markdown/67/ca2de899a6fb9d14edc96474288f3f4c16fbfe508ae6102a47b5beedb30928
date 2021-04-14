@@ -1,0 +1,16 @@
+I"�<ul id="markdown-toc">
+  <li><a href="#概念" id="markdown-toc-概念">概念</a></li>
+</ul>
+
+<h2 id="概念">概念</h2>
+
+<p>内网：</p>
+
+<blockquote>
+  <p>内网也就是局域网，内网的计算机以NAT（<a href="https://baike.baidu.com/item/%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E8%BD%AC%E6%8D%A2">网络地址转换</a>）协议，通过一个公共的<a href="https://baike.baidu.com/item/%E7%BD%91%E5%85%B3">网关</a>访问Internet。内网的计算机可向Internet上的其他计算机发送连接请求，但Internet上其他的计算机无法向内网的计算机发送连接请求。</p>
+</blockquote>
+
+<blockquote>
+  <p>最直观的就是像网吧，公司内部的电脑用交换机，HUB，路由连起来的</p>
+</blockquote>
+:ET
