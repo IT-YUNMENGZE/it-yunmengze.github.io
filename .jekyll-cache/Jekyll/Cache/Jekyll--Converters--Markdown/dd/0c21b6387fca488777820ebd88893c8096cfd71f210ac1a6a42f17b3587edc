@@ -1,0 +1,14 @@
+I"b<ul id="markdown-toc">
+  <li><a href="#1-paxos定义" id="markdown-toc-1-paxos定义">1. Paxos定义</a></li>
+  <li><a href="#2-提出背景" id="markdown-toc-2-提出背景">2. 提出背景</a></li>
+</ul>
+<h2 id="1-paxos定义">1. Paxos定义</h2>
+
+<p>Paxos算法是莱斯利·兰伯特（英语：Leslie Lamport）于1990年提出的一种基于<strong>消息传递</strong>且具有<strong>高度容错特性</strong>的<strong>共识（consensus）算法</strong>。</p>
+
+<p><code class="language-plaintext highlighter-rouge">注意：Paxos常被误称为“一致性算法”。但是“一致性算法”和“共识算法”并非同一个概念，详见：</code><a href="https://zhuanlan.zhihu.com/p/35596768">分布式系统的一致性和共识性</a></p>
+
+<h2 id="2-提出背景">2. 提出背景</h2>
+
+<p>分布式系统中的节点通信存在两种模型：<strong>共享内存（Shared memory）</strong>和<strong>消息传递（Messages passing）</strong>。基于消息传递通信模型的分布式系统，不可避免的会发生以下错误：进程运行缓慢、被杀死或者重启，消息可能会出现延迟、丢失、重复。在基础 Paxos 场景中，先不考虑可能出现消息篡改即<a href="https://zh.wikipedia.org/wiki/%E6%8B%9C%E5%8D%A0%E5%BA%AD%E5%B0%86%E5%86%9B%E9%97%AE%E9%A2%98">拜占庭错误</a>的情况。Paxos 算法解决的问题是在一个可能发生上述异常的分布式系统中如何就<strong>某个值</strong>达成一致（注意：<strong>值</strong>并不只是狭义上的某个数，它可以是一条日志，也可以是一条命令（command）。根据应用场景不同，<strong>值</strong>有不同的含义），保证不论发生以上任何异常，都不会破坏决议的共识。一个典型的场景是，在一个分布式数据库系统中，如果各节点的初始状态一致，每个节点都执行相同的操作序列，那么他们最后能得到一个一致的状态。为保证每个节点执行相同的命令序列，需要在每一条指令上执行一个<strong>“共识算法”</strong>以保证每个节点看到的指令一致。</p>
+:ET
