@@ -210,3 +210,4 @@ Client   Proposer       Acceptor     Learner
 - 论文《The Part-Time Parliament》
 - 英文版维基百科的Paxos
 - 中文版维基百科的Paxos
+- [Paxos算法原理与推导](https://www.cnblogs.com/linbingdong/p/6253479.html)
