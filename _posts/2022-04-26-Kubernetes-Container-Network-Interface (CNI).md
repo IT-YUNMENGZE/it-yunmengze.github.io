@@ -16,6 +16,12 @@ author: yunmengze
 
 实际上，上面这个流程，也正是 Kubernetes 对容器网络的主要处理方法。只不过，Kubernetes 是通过一个叫作 CNI 的接口，维护了一个单独的网桥来代替 docker0。这个网桥的名字就叫作：**CNI 网桥**，它在宿主机上的设备名称默认是：**cni0**。
 
+
+
+
+
+
+
 以 Flannel 的 VXLAN 模式为例，在 Kubernetes 环境里，它的工作方式跟上篇文章中没有任何不同。只不过，docker0 网桥被替换成了 CNI 网桥而已，如下所示：
 
 ![img](https://cdn.jsdelivr.net/gh/IT-YUNMENGZE/ImgDB/blog_img/cni.jpg)

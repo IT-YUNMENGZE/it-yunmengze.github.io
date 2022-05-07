@@ -16,6 +16,12 @@ author: yunmengze
 
 用户其实更希望看到 Kubernetes 为他们内置一个全局的负载均衡器。然后通过用户访问的 URL，把请求转发给不同的后端 Service。**这种全局的、为了代理不同后端 Service 而设置的负载均衡服务，就是 Kubernetes 里的 Ingress 服务**。所以，Ingress 的功能其实很容易理解：**所谓 Ingress，就是 Service 的“Service”。**
 
+
+
+
+
+
+
 举个例子，假如现在有这样一个站点：https://cafe.example.com。其中，https://cafe.example.com/coffee，对应的是“咖啡点餐系统”。https://cafe.example.com/tea 对应的则是“茶水点餐系统”。这两个系统，分别由名叫 coffee 和 tea 这样两个 Deployment 来提供服务。那么就可以使用 Kubernetes 的 Ingress 来创建一个统一的负载均衡器，从而实现当用户访问不同的域名时，能够访问到不同的 Deployment 。
 
 上述功能，用 Ingress 对象来描述，如下所示：
