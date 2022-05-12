@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Kubernetes的CNI网络插件"
+title:  "Kubernetes 网络篇（3）— CNI网络插件"
 date:   2022-04-26 10:00:00
 categories: 容器与Kubernetes
-tags:  Kubernetes 容器网络 CNI
+tags:  Kubernetes 网络 容器网络 CNI
 author: yunmengze
 ---
 

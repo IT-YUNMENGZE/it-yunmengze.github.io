@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Service 与 Ingress"
+title:  "Kubernetes 网络篇（7）— Service 与 Ingress"
 date:   2022-05-02 14:00:00
 categories: 容器与Kubernetes
-tags:  Kubernetes Service Ingress
+tags:  Kubernetes 网络 Service Ingress
 author: yunmengze
 ---
 
